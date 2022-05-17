@@ -9,7 +9,7 @@ public class App {
         String s = in.nextLine();
         Texting t = new Texting(s);
         System.out.print("Enter an integer: ");
-        int n = Interger.parseInt(in.nextLine());
+        int n = Integer.parseInt(in.nextLine());
         String rep = t.repeatString(n);
         System.out.println(rep);
     }
